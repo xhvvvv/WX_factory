@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+ 
+    <servlet>
+        <servlet-name>GS</servlet-name>
+        <servlet-class>Servlet.GoingServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>GS</servlet-name>
+        <url-pattern>/Home/load</url-pattern><!--自动把主路径加上？ 这他妈时上下文路径 -->
+    </servlet-mapping>
+    
+    
+    <servlet>
+        <servlet-name>GetFileNameServlet</servlet-name>
+        <servlet-class>Servlet.GetFileNameServlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>GetFileNameServlet</servlet-name>
+        <url-pattern>/Home/File</url-pattern><!--自动把主路径加上？ 这他妈时上下文路径 -->
+    </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>Download_Servlet</servlet-name>
+        <servlet-class>Servlet.Download_Servlet</servlet-class>
+    </servlet>
+ 
+    <servlet-mapping>
+        <servlet-name>Download_Servlet</servlet-name>
+        <url-pattern>/Home/File/Download_Servlet</url-pattern><!--自动把主路径加上？ 这他妈时上下文路径 -->
+    </servlet-mapping>
+    
+    	<jsp-config>
+		<jsp-property-group>
+		<url-pattern>*.html</url-pattern>
+		<page-encoding>UTF-8</page-encoding>
+		</jsp-property-group>
+		</jsp-config><!--将所有html编码方式改成 UTF-8-->
+</web-app>

@@ -1,0 +1,160 @@
+.FileBody{
+	background-color: lightblue;
+}
+.headcss{
+ 			
+	border:solid 1px green;
+	position: absolute;
+	left: 40%;
+ 	top: 10px;
+	width:300px;
+ 	height:40px;
+		}
+.File-tile{
+	border:1px solid blue;
+	position: absolute;
+	left: 1%;
+	top: 8%;
+	width:88%;
+    height:5%;
+}
+/*************************************/
+.File-dictoryi-{
+	cursor:pointer;
+}
+#File-dictoryi-return{
+	border:1px solid greenyellow;
+	position:absolute;
+	left: 0px;
+	width: 33%;
+	height: 100%;
+}
+#File-dictoryi-middle{
+	border:1px solid yellow;
+	position:absolute;
+	left: 33.3%;
+	width: 33%;
+	height: 100%;
+}
+#File-dictoryi-forward{
+	border:1px solid mediumvioletred;
+	position:absolute;
+	left: 66.3%;
+	width: 33%;
+	height: 100%;
+}
+#FileName{
+	padding:0px;
+	margin: 0px;
+	width:100%;
+  	height:100%;
+}
+.li-class{
+	margin: 0px;padding: 0px;
+	background-color: yellow;
+	border:1px solid black;
+	width:100%;
+  	height:50px;
+	display:block;/*鐏忓棗鍘撶槐鐘烘祮閹诡澀璐熺悰灞藉敶閸ф鍘撶槐锟�*/
+}
+.check{
+	border:1px solid purple;
+	display: inline-block;
+	margin: 0px;padding: 0px;
+	width:20%;
+    height:100%;
+    cursor:pointer;/*姒х姵鐖ｉ弽宄扮础*/
+	font-size:45px;
+	line-height: 50px;
+	
+}
+
+
+.li-class  span{
+	vertical-align:top;
+	display: inline-block;
+	line-height: 50px;
+	text-align:center;
+	margin:0px;
+	padding:0px;
+	border:1px solid black;
+	width:50%;
+    height:100%;
+}
+.File-dictory{
+	width: 180px;
+	height: 70%;
+	position:absolute;
+	left: 1%;
+	top: 14%;
+	/*overflow: auto;*/
+}
+.File-dictoryi{
+	position: absolute;
+	
+	
+	border:1px solid blueviolet;
+	width: 100%;
+	height: 5%;
+}
+.File-dictoryii {
+	position: absolute;
+	top: 5%;
+	border:1px solid red;
+	width: 100%;
+	height: 100%;
+  	overflow-x: hidden;
+  	overflow-y: auto;
+}
+
+.File-dictoryii::-webkit-scrollbar {
+  display: none;
+}
+/*****************************************/
+.personchoose{
+	margin: 0px;
+	padding: 0px;
+	border:1px solid black;
+	width: 10%;
+	height:5%;
+
+	position: absolute;
+	right: 0.5%;
+	top: 8%;
+	overflow: hidden;
+}
+/**************************************************/
+.aspan-class{
+	cursor:pointer;/*姒х姵鐖ｉ弽宄扮础*/
+	padding: 10px;
+	display: inline-block;
+	border:1px solid red;
+	font-size: 20px;
+	height:50%;
+}
+/********************SpecificFile*********************/
+#SpecificFile{
+	border:1px solid yellow;
+	width: 70%;
+	height:85%;
+	position: absolute;
+	background-image: url(../img/FIleGround.jpg);
+	top: 14%;
+	left: 205px;
+	overflow-y:auto;
+	overflow-x:hidden;
+}
+.SpecificFile_fileName_div{
+	border:1px solid white;
+	width: 100%;
+	height:10%;
+	font-size:20px;
+}
+#Specific_performoce{
+	border:3px solid green;
+	position: absolute;
+	top:14%;
+	right:5px;
+	width: 17%;
+	height:85%;
+}

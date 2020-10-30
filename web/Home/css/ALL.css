@@ -1,0 +1,143 @@
+html{
+	width: 100%;
+	height: 100%;
+}
+body{
+
+	background-repeat:no-repeat ;/*鑳屾櫙鍥剧墖涓嶉噸澶�*/
+ 	background-size:100% 100%;/*绐楀彛鐨勭櫨鍒嗙櫨姣斾緥*/
+	background-attachment: fixed;"/*鍥剧墖鍥哄畾锛岄殢鐫�椤甸潰婊氬姩鑰岀Щ鍔�*/
+}
+
+.headcss{
+ 			
+			border:solid 1px green;
+			position: absolute;
+			left: 40%;
+		 	top: 10px;
+			width:300px;
+		 	height:40px;
+			}
+
+/*.headcssobject::-webkit-scrollbar {
+  display: none;
+}濂藉儚閮ㄥ垎娓歌鍣ㄤ笉鏀寔*/
+
+.maintable {
+	
+	position: absolute;/*缁濆瀹氫綅*/
+	left: 10%;
+ 	top: 60px;
+	border:solid 1px lightskyblue;
+	width:79.5%;
+ 	height:40px;
+}
+ #menu{
+	padding:0px;
+	margin: 0px;
+	border:1px solid red;
+ 	list-style-type: none; /*娓呴櫎椤圭洰鏍囪*/
+	width:100%;
+  	height:100%;
+}
+ #menu li {	
+ 			border:1px solid black;
+		 	margin:0px;
+			padding:0px;
+ 			width:300px;
+   			 height:41px;
+ 			cursor:pointer;/*榧犳爣鏍峰紡*/
+            display:inline-block;/*灏嗗厓绱犺浆鎹负琛屽唴鍧楀厓绱�*/
+            /*borer:1px solid blue;*/
+            font-size:20px;
+}
+
+#menu-li1{
+	position: absolute;
+ 			top: 0px;
+ 			left: 0px;
+}
+#menu-li2{
+	position: absolute;
+ 			top: 0px;
+ 			left: 20%;
+}
+#menu-li3{
+	position: absolute;
+ 			top: 0px;
+ 			left: 40%;
+}
+#menu-li4{
+	position: absolute;
+ 			top: 0px;
+ 			left: 60%;
+}
+#menu-li5{
+	position: absolute;
+ 			top: 0px;
+ 			left: 80%;
+}
+#menu span{
+
+	display:inline-block;/*灏嗗厓绱犺浆鎹负琛屽唴鍧楀厓绱�*/
+	margin:0px;
+	padding:0px;
+	border:1px solid yellow;
+	width:100%;
+    height:95%;
+	
+}
+.personchooseI{
+	padding:0px;
+	margin: 0px;
+	width: 10%;
+	height:5%;
+	position: absolute;
+	left: 90%;
+ 	top: 60px;
+	
+	
+}
+.verticalMenu {
+	border:1px solid black;
+	position: absolute;
+	left: 90%;
+ 	top: 109px;
+}
+.verticalMenu td{
+	text-align:center;/*姘村钩灞呬腑*/
+	width:170px;
+  	height:50px;
+  	border:1px solid red;
+  	font-size:20px;
+}
+.detail-message{
+	border:1px solid greenyellow;
+	position: absolute;
+	left: 10%;
+	right: 10.3%;
+ 	top: 110px;
+ 	/*width:300px;*/
+    height:80%;
+ 	font-size:15px;
+}
+.WebIforframe{
+	width:100%;
+	height:30px;
+	position: absolute;
+	left: 0px;
+	top: 95%;
+}
+/*file銆俬tml*/
+
+
+
+
+
+
+
+
+
+.personchooseii::-webkit-scrollbar {
+  display: none;
+}
